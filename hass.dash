@@ -9,5 +9,5 @@ global_parameters:
   use_hass_icon: 1
 
 layout:
-  - scene.huiskamer_langzaam_normaal, scene.huiskamer_langzaam_uit
+  - scene.huiskamer_langzaam_normaal, scene.huiskamer_licht_langzaam_uit
   - sensor.light_sensor_1_0
