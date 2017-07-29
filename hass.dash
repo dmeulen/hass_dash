@@ -1,0 +1,13 @@
+title: Huis
+widget_dimensions: [120, 120]
+widget_size: [1, 1]
+widget_margins: [5, 5]
+colums: 8
+global_parameters:
+  use_comma: 0
+  precision: 1
+  use_hass_icon: 1
+
+layout:
+  - scene.huiskamer_langzaam_normaal, scene.huiskamer_langzaam_uit
+  - sensor.light_sensor_1_0
