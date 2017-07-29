@@ -8,6 +8,19 @@ global_parameters:
   precision: 1
   use_hass_icon: 1
 
+clock:
+  widget_type: clock
+
+licht_aan:
+  widget_type: switch
+  title: Licht Aan
+  entity: scene.huiskamer_langzaam_normaal
+
+licht_uit:
+  widget_type: switch
+  title: Licht Uit
+  entity: scene.huiskamer_licht_langzaam_uit
+
 layout:
-  - scene.huiskamer_langzaam_normaal, scene.huiskamer_licht_langzaam_uit
+  - licht_aan, licht_uit
   - sensor.light_sensor_1_0
