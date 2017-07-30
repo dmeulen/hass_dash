@@ -46,7 +46,7 @@ het_weer:
   title: Buienradar
   refresh: 60
   url_list:
-    - https://api.buienradar.nl/image/1.0/RadarMapNL?w=230&h=230
+    - https://api.buienradar.nl/image/1.0/RadarMapNL?w=220&h=220
 
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_fel, licht_huiskamer_gezellig
