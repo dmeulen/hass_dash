@@ -1,7 +1,7 @@
 title: Huis
 widget_dimensions: [120, 120]
 widget_size: [1, 1]
-widget_margins: [5, 5]
+widget_margins: [10, 10]
 colums: 4
 global_parameters:
   use_comma: 0
