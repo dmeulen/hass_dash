@@ -50,5 +50,6 @@ het_weer:
 
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_fel, licht_huiskamer_gezellig
-  - licht_sensor, sensor.br_temperature, het_weer(2x2)
+  - licht_sensor, sensor.br_temperature
   - rss_feed(2x1)
+  - het_weer(3x6)
