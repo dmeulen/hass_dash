@@ -1,5 +1,5 @@
 title: Huis
-widget_dimensions: [120, 120]
+widget_dimensions: [240, 240]
 widget_size: [1, 1]
 widget_margins: [5, 5]
 colums: 8
@@ -11,16 +11,11 @@ global_parameters:
 clock:
   widget_type: clock
 
-licht_aan:
+licht_huiskamer:
   widget_type: switch
-  title: Licht Aan
-  entity: scene.huiskamer_langzaam_normaal
-
-licht_uit:
-  widget_type: switch
-  title: Licht Uit
-  entity: scene.huiskamer_licht_langzaam_uit
+  title: Licht Huiskamer
+  entity: switch.huiskamer
 
 layout:
-  - licht_aan, licht_uit
+  - licht_huiskamer
   - sensor.light_sensor_1_0
