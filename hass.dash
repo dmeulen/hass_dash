@@ -47,7 +47,7 @@ br_map:
   title: Buienradar
   refresh: 60
   url_list:
-    - https://api.buienradar.nl/image/1.0/RadarMapNL?w=494&h=479
+    - https://api.buienradar.nl/image/1.0/RadarMapNL?w=509&h=494
 
 br_temp:
   widget_type: sensor
