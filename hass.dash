@@ -26,6 +26,12 @@ licht_sensor:
   title: Licht Sensor
   entity: sensor.light_sensor_1_0
 
+rss_feed:
+  widget_type: rss
+  entity: rss_news
+  interval: 10
+
 layout:
   - licht_huiskamer, licht_huiskamer_fel
   - licht_sensor, sensor.br_temperature
+  - rss_feed
