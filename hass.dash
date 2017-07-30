@@ -26,7 +26,7 @@ licht_huiskamer_gezellig:
   title: Gezellig
   entity: scene.huiskamer_mfb
 
-licht_huislamer_normaal:
+licht_huiskamer_normaal:
   widget_type: scene
   title: Normaal
   entity: scene.huiskamer_mfb
