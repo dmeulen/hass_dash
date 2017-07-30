@@ -43,10 +43,10 @@ rss_feed:
 
 het_weer:
   widget_type: iframe
-  title: Het Weer
+  title: Buienradar
   refresh: 60
   url_list:
-    - http://whatsinmymind.org/wetter/
+    - https://api.buienradar.nl/image/1.0/RadarMapNL?w=240&h=240
 
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_fel, licht_huiskamer_gezellig
