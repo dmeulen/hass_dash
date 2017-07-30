@@ -52,4 +52,4 @@ layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_fel, licht_huiskamer_gezellig
   - licht_sensor, sensor.br_temperature
   - rss_feed(2x1)
-  - het_weer(3x4)
+  - het_weer(3x3)
