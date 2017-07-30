@@ -41,7 +41,14 @@ rss_feed:
   entity: rss_news
   interval: 10
 
+het_weer:
+  widget_type: iframe
+  title: Het Weer
+  refresh: 60
+  url_list:
+    - http://whatsinmymind.org/wetter/
+
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_fel, licht_huiskamer_gezellig
-  - licht_sensor, sensor.br_temperature
+  - licht_sensor, sensor.br_temperature, het_weer(2x2)
   - rss_feed(2x1)
