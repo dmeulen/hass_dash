@@ -34,4 +34,4 @@ rss_feed:
 layout:
   - licht_huiskamer, licht_huiskamer_fel
   - licht_sensor, sensor.br_temperature
-  - rss_feed
+  - rss_feed(2x1)
