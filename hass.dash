@@ -1,5 +1,5 @@
 title: Huis
-widget_dimensions: [180, 180]
+widget_dimensions: [120, 120]
 widget_size: [1, 1]
 widget_margins: [5, 5]
 colums: 8
@@ -16,6 +16,11 @@ licht_huiskamer:
   title: Licht Huiskamer
   entity: switch.huiskamer
 
+licht_huiskamer_fel:
+  widget_type: switch
+  title: Fel licht
+  entity: switch.huiskamer_fel
+
 layout:
-  - licht_huiskamer
-  - sensor.light_sensor_1_0
+  - licht_huiskamer, licht_huiskamer_fel
+  - sensor.light_sensor_1_0, sensor.sensor.br_temperature
