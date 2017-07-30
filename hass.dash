@@ -23,4 +23,4 @@ licht_huiskamer_fel:
 
 layout:
   - licht_huiskamer, licht_huiskamer_fel
-  - sensor.light_sensor_1_0, sensor.sensor.br_temperature
+  - sensor.light_sensor_1_0, sensor.br_temperature
