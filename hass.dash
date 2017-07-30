@@ -46,7 +46,7 @@ br_map:
   title: Buienradar
   refresh: 60
   url_list:
-    - https://api.buienradar.nl/image/1.0/RadarMapNL?w=239&h=220
+    - https://api.buienradar.nl/image/1.0/RadarMapNL?w=479&h=479
 
 br_temp:
   widget_type: sensor
@@ -55,5 +55,6 @@ br_temp:
 
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_fel, licht_huiskamer_gezellig
-  - licht_sensor, br_temp, br_map(2x2)
   - rss_feed(2x1)
+  - licht_sensor, br_temp
+  - br_map(4x4)
