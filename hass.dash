@@ -21,6 +21,11 @@ licht_huiskamer_fel:
   title: Fel licht
   entity: switch.huiskamer_fel
 
+licht_sensor:
+  widget_type: sensor
+  title: Licht Sensor
+  entity: sensor.light_sensor_1_0
+
 layout:
   - licht_huiskamer, licht_huiskamer_fel
   - sensor.light_sensor_1_0, sensor.br_temperature
