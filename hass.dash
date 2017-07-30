@@ -53,8 +53,18 @@ br_temp:
   title: Buiten Temp
   entity: sensor.br_temperature
 
+br_precipitation:
+  widget_type: sensor
+  title: Regen
+  entity: sensor.br_precipitation
+
+br_humidity:
+  widget_type: sensor
+  title: Lucht Vochtigheid
+  entity: sensor.br_humidity
+
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_fel, licht_huiskamer_gezellig
   - rss_feed(2x1)
-  - licht_sensor, br_temp
+  - licht_sensor, br_temp, sensor.br_precipitation, sensor.br_humidity
   - br_map(4x4)
