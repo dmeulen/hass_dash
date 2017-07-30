@@ -65,6 +65,6 @@ br_humidity:
 
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_fel, licht_huiskamer_gezellig
-  - rss_feed(2x1)
+  - rss_feed(2x1), clock
   - licht_sensor, br_temp, br_precipitation, br_humidity
   - br_map(4x4)
