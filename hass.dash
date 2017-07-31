@@ -64,8 +64,12 @@ br_humidity:
   title: Lucht Vochtigheid
   entity: sensor.br_humidity
 
+ververs:
+  widget_type: reload
+  title: Ververs
+
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_fel, licht_huiskamer_gezellig
   - rss_feed(2x1), clock(2x1)
-  - licht_sensor, br_temp, br_precipitation, br_humidity
+  - licht_sensor, br_temp, br_precipitation, ververs
   - br_map(4x4)
