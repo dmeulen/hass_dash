@@ -42,6 +42,11 @@ rss_feed:
   entity: rss_news
   interval: 10
 
+rss_utrecht_feed:
+  widget_type: rss
+  entity: rss_utrecht_news
+  interval: 10
+
 br_map:
   widget_type: iframe
   title: Buienradar
@@ -70,6 +75,6 @@ ververs:
 
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_fel, licht_huiskamer_gezellig
-  - rss_feed(2x1), clock(2x1)
+  - rss_feed(2x1), rss_utrecht_feed(2x1)
   - licht_sensor, br_temp, br_precipitation, ververs
   - br_map(4x4)
