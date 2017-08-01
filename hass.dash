@@ -37,6 +37,9 @@ licht_sensor:
   title: Licht Sensor
   entity: sensor.light_sensor_1_0
   color: "#ebf442"
+  max: 100
+  min: 0
+  units: "%"
 
 licht_sensor_battery:
   widget_type: gauge
