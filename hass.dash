@@ -37,6 +37,13 @@ licht_sensor:
   title: Licht Sensor
   entity: sensor.light_sensor_1_0
 
+licht_sensor_battery:
+  widget_type: gauge
+  title: Licht Sensor Batt
+  entity: sensor.lightlevel_battery
+  max: 100
+  min: 40
+
 rss_feed:
   widget_type: rss
   entity: rss_news
@@ -75,6 +82,6 @@ ververs:
 
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_fel, licht_huiskamer_gezellig
-  - rss_feed(2x1), rss_utrecht_feed(2x1)
+  - rss_utrecht_feed(2x1), licht_sensor, licht_sensor_battery
   - licht_sensor, br_temp, br_precipitation, ververs
   - br_map(4x4)
