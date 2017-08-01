@@ -37,7 +37,8 @@ licht_sensor:
   title: Licht Sensor
   entity: sensor.light_sensor_1_0
   low_color: "#000000"
-  high_color: "#ebf442"
+  med_color: "#f97c00"
+  high_color: "#f9e500"
   max: 100
   min: 0
   units: "%"
@@ -46,6 +47,9 @@ licht_sensor_battery:
   widget_type: gauge
   title: Licht Sensor Batterij
   entity: sensor.lightlevel_battery
+  low_color: "#f90000"
+  med_color: "#f99500"
+  high_color: "#0cf900"
   max: 100
   min: 40
   units: "%"
