@@ -33,13 +33,14 @@ licht_huiskamer_normaal:
   entity: scene.huiskamer_mfb
 
 licht_sensor:
-  widget_type: sensor
+  widget_type: gauge
   title: Licht Sensor
   entity: sensor.light_sensor_1_0
+  color: "#ebf442"
 
 licht_sensor_battery:
   widget_type: gauge
-  title: Licht Sensor Batt
+  title: Licht Sensor Batterij
   entity: sensor.lightlevel_battery
   max: 100
   min: 40
@@ -84,5 +85,5 @@ ververs:
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_fel, licht_huiskamer_gezellig
   - rss_utrecht_feed(2x1), licht_sensor, licht_sensor_battery
-  - licht_sensor, br_temp, br_precipitation, ververs
+  - br_temp, br_precipitation br_humidity, ververs
   - br_map(4x4)
