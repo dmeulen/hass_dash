@@ -15,7 +15,7 @@ clock:
 licht_huiskamer:
   widget_type: switch
   title: Licht Huiskamer
-  entity: switch.huiskamer
+  entity: switch.huiskamer_light_switch
 
 licht_huiskamer_fel:
   widget_type: scene
