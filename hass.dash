@@ -32,6 +32,11 @@ licht_huiskamer_normaal:
   title: Normaal
   entity: scene.huiskamer_mfb
 
+licht_huiskamer_helderheid:
+  widget_type: input_slider
+  title: Helderheid
+  entity: input_slider.huiskamer_brightness
+
 licht_sensor:
   widget_type: gauge
   title: Licht Sensor
@@ -83,6 +88,6 @@ ververs:
 
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_fel, licht_huiskamer_gezellig
-  - clock(2x1),licht_sensor, licht_sensor_battery
+  - licht_huiskamer_helderheid, licht_sensor, licht_sensor_battery
   - br_temp, br_precipitation, br_humidity, ververs
   - br_map(4x4)
