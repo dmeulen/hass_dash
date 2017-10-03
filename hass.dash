@@ -88,6 +88,6 @@ ververs:
 
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_fel, licht_huiskamer_gezellig
-  - licht_huiskamer_helderheid, licht_sensor, licht_sensor_battery
+  - licht_huiskamer_helderheid, licht_sensor, licht_sensor_battery, clock
   - br_temp, br_precipitation, br_humidity, ververs
   - br_map(4x4)
