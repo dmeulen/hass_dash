@@ -30,7 +30,7 @@ licht_huiskamer_gezellig:
 licht_huiskamer_normaal:
   widget_type: scene
   title: Normaal
-  entity: scene.huiskamer_mfb
+  entity: scene.huiskamer_normaal
 
 licht_huiskamer_helderheid:
   widget_type: input_slider
