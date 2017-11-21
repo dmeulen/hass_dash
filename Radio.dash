@@ -8,38 +8,48 @@ global_parameters:
   precision: 1
   use_hass_icon: 1
 
-widget_type: script
+radio_1:
+  widget_type: script
   title: Radio 1
   entity: script.radio_1
   icon_on: mdi-radio
   icon_off: mdi-radio
 
-widget_type: script
+radio_2:
+  widget_type: script
   title: Radio 2
   entity: script.radio_2
   icon_on: mdi-radio
   icon_off: mdi-radio
 
-widget_type: script
+3fm:
+  widget_type: script
   title: 3FM
   entity: script.3fm
   icon_on: mdi-radio
   icon_off: mdi-radio
 
-widget_type: script
+3fm_alt:
+  widget_type: script
   title: 3FM Alt
   entity: script.3fm_alt
   icon_on: mdi-radio
   icon_off: mdi-radio
 
-widget_type: script
+radio_4:
+  widget_type: script
   title: Radio 4
   entity: script.radio_4
   icon_on: mdi-radio
   icon_off: mdi-radio
 
-widget_type: script
+bnr:
+  widget_type: script
   title: BNR
   entity: script.bnr
   icon_on: mdi-radio
   icon_off: mdi-radio
+
+layout:
+  - radio_1, radio_2, 3fm
+  - 3fm_alt, radio_4, bnr
