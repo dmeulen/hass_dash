@@ -30,7 +30,7 @@ licht_huiskamer_gezellig:
 licht_huiskamer_normaal:
   widget_type: scene
   title: Normaal
-  entity: scene.huiskamer_mfb
+  entity: scene.huiskamer_normaal
 
 licht_huiskamer_helderheid:
   widget_type: input_slider
@@ -96,6 +96,6 @@ radio_dash:
 
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_fel, licht_huiskamer_gezellig
-  - licht_huiskamer_helderheid, licht_sensor, licht_sensor_battery, clock
+  - licht_sensor, licht_sensor_battery, clock(2x1)
   - br_temp, br_precipitation, radio_dash, ververs
   - br_map(4x4)
