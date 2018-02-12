@@ -17,6 +17,11 @@ licht_huiskamer:
   title: Licht Huiskamer
   entity: switch.huiskamer_light_switch
 
+guest_switch:
+  widged_type: switch
+  title: Guest
+  entity: switch.guest_switch
+
 licht_huiskamer_fel:
   widget_type: scene
   title: Fel licht
@@ -95,7 +100,7 @@ radio_dash:
     return: Huis
 
 layout:
-  - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_fel, licht_huiskamer_gezellig
+  - licht_huiskamer, guest_switch, licht_huiskamer_normaal, licht_huiskamer_gezellig
   - licht_sensor, licht_sensor_battery, clock(2x1)
   - br_temp, br_precipitation, radio_dash, ververs
   - br_map(4x4)
