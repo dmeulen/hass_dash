@@ -19,7 +19,7 @@ licht_huiskamer:
 
 guest_switch:
   widget_type: switch
-  title: Guest
+  title: Gast Modus
   entity: switch.guest_switch
 
 licht_huiskamer_fel:
