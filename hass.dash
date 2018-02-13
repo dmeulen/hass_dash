@@ -92,7 +92,7 @@ ververs:
   title: Ververs
 
 layout:
-  - licht_huiskamer, guest_switch, licht_huiskamer_normaal, licht_huiskamer_gezellig
+  - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_gezellig, guest_switch
   - licht_sensor, licht_sensor_battery, clock(2x1)
   - br_temp, br_precipitation, br_humidity, ververs
   - br_map(4x4)
