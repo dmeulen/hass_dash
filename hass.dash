@@ -18,7 +18,7 @@ licht_huiskamer:
   entity: switch.huiskamer_light_switch
 
 guest_switch:
-  widged_type: switch
+  widget_type: switch
   title: Guest
   entity: switch.guest_switch
 
