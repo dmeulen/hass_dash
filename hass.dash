@@ -91,16 +91,8 @@ ververs:
   widget_type: reload
   title: Ververs
 
-radio_dash:
-  widget_type: navigate
-  title: Radio
-  dashboards: Radio
-  args:
-    timeout: 30
-    return: Huis
-
 layout:
   - licht_huiskamer, guest_switch, licht_huiskamer_normaal, licht_huiskamer_gezellig
   - licht_sensor, licht_sensor_battery, clock(2x1)
-  - br_temp, br_precipitation, radio_dash, ververs
+  - br_temp, br_precipitation, br_humidity, ververs
   - br_map(4x4)
