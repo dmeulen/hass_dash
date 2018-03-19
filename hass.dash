@@ -22,6 +22,15 @@ guest_switch:
   title: Gast Modus
   entity: switch.guest_switch
 
+auto_keuken_led:
+  widget_type: switch
+  title: Keuken Radar
+  entity: automation.keuken_lamp_aan_bij_beweging
+
+toon:
+  widget_type: climate
+  title: Verwarming
+
 licht_huiskamer_fel:
   widget_type: scene
   title: Fel licht
@@ -92,6 +101,7 @@ ververs:
 
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_gezellig, guest_switch
+  - auto_keuken_led, toon
   - licht_sensor, licht_sensor_battery, clock(2x1)
   - br_temp, br_precipitation, br_humidity, ververs
   - br_map(2x2)
