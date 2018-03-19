@@ -30,6 +30,7 @@ auto_keuken_led:
 toon:
   widget_type: climate
   title: Verwarming
+  entity: climate.toon_van_eneco
 
 licht_huiskamer_fel:
   widget_type: scene
