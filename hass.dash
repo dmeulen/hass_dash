@@ -81,7 +81,7 @@ plant_sensor:
   low_color: "#f90000"
   med_color: "#f99500"
   high_color: "#0cf900"
-  max: 900
+  max: 500
   min: 150
   units: ""
 
@@ -114,6 +114,8 @@ ververs:
 utrecht_news:
   widget_type: rss
   interval: 15
+  recent: 10
+  title: RTV Utrecht
   entity: rss_utrecht_news
 
 layout:
