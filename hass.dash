@@ -74,6 +74,17 @@ licht_sensor_battery:
   min: 40
   units: "%"
 
+plant_sensor:
+  widget_type: gauge
+  title: Plant vochtigheid
+  entity: sensor.plant_sensor_6_0
+  low_color: "#f90000"
+  med_color: "#f99500"
+  high_color: "#0cf900"
+  max: 900
+  min: 150
+  units: ""
+
 br_map:
   widget_type: iframe
   title: Buienradar
@@ -102,11 +113,12 @@ ververs:
 
 utrecht_news:
   widget_type: rss
+  interval: 15
   entity: rss_utrecht_news
 
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_gezellig, licht_huiskamer_fel
-  - auto_keuken_led, guest_switch, ververs
-  - licht_sensor, licht_sensor_battery, clock(2x1)
+  - auto_keuken_led, guest_switch, clock(2x1)
+  - licht_sensor, licht_sensor_battery, plant_sensor, ververs
   - br_temp, br_precipitation, br_humidity, toon
   - br_map(2x2), utrecht_news(2x2)
