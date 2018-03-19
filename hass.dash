@@ -118,9 +118,16 @@ utrecht_news:
   title: RTV Utrecht
   entity: rss_utrecht_news
 
+nu_news:
+  widget_type: rss
+  interval: 15
+  recent: 10
+  title: NU nieuws
+  entity: rss_news
+
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_gezellig, licht_huiskamer_fel
   - auto_keuken_led, guest_switch, clock(2x1)
   - licht_sensor, licht_sensor_battery, plant_sensor, ververs
   - br_temp, br_precipitation, br_humidity, toon
-  - br_map(2x2), utrecht_news(2x2)
+  - br_map(2x2), utrecht_news(2x1), nu_news(2x1)
