@@ -130,4 +130,5 @@ layout:
   - auto_keuken_led, guest_switch, clock(2x1)
   - licht_sensor, licht_sensor_battery, plant_sensor, ververs
   - br_temp, br_precipitation, br_humidity, toon
-  - br_map(2x2), utrecht_news(2x1), nu_news(2x1)
+  - br_map(2x2), utrecht_news(2x1)
+  - nu_news(2x1)
