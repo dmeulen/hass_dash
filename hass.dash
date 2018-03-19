@@ -101,6 +101,7 @@ ververs:
   title: Ververs
 
 utrecht_news:
+  widget_type: rss
   entity: rss_utrecht_news
 
 layout:
