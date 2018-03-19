@@ -69,8 +69,7 @@ br_map:
   title: Buienradar
   refresh: 30
   url_list:
-    - https://api.buienradar.nl/image/1.0/RadarMapNL?w=510&h=494
-    - https://api.buienradar.nl/image/1.0/RadarMapNL?w=510&h=494
+    - https://gadgets.buienradar.nl/gadget/zoommap/?lat=52.09083&lng=5.12222&overname=2&zoom=8&naam=Utrecht&size=2&voor=1
 
 br_temp:
   widget_type: sensor
