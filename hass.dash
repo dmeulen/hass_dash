@@ -100,9 +100,12 @@ ververs:
   widget_type: reload
   title: Ververs
 
+utrecht_news:
+  entity: rss_utrecht_news
+
 layout:
-  - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_gezellig, guest_switch
-  - auto_keuken_led, toon
+  - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_gezellig, licht_huiskamer_fel
+  - auto_keuken_led, guest_switch, ververs
   - licht_sensor, licht_sensor_battery, clock(2x1)
-  - br_temp, br_precipitation, br_humidity, ververs
-  - br_map(2x2)
+  - br_temp, br_precipitation, br_humidity, toon
+  - br_map(2x2), utrecht_news(2x2)
