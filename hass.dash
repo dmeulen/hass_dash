@@ -125,9 +125,16 @@ nu_news:
   title: NU nieuws
   entity: rss_news
 
+mfb_media:
+  widget_type: media_player
+  title: MFB
+  step: 2
+  entity: media_player.mfb
+
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_gezellig, licht_huiskamer_fel
   - auto_keuken_led, guest_switch, clock(2x1)
   - licht_sensor, licht_sensor_battery, plant_sensor, ververs
   - br_temp, br_precipitation, br_humidity, toon
   - br_map(2x2), nu_news(2x1)
+  - mfb_media(2x1)
