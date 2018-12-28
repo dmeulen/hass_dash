@@ -22,11 +22,6 @@ garage_deur:
   title: Garage
   entity: switch.garage_deur
 
-televisie:
-  widget_type: switch
-  title: TV
-  entity: switch.tv_kijken
-
 guest_switch:
   widget_type: switch
   title: Gast Modus
@@ -57,11 +52,6 @@ licht_huiskamer_normaal:
   title: Normaal
   entity: scene.huiskamer_normaal
 
-licht_huiskamer_helderheid:
-  widget_type: input_slider
-  title: Helderheid
-  entity: input_slider.huiskamer_brightness
-
 licht_sensor:
   widget_type: gauge
   title: Licht Sensor
@@ -73,27 +63,10 @@ licht_sensor:
   min: 0
   units: "%"
 
-licht_sensor_battery:
-  widget_type: gauge
-  title: Licht Sensor Batterij
-  entity: sensor.lightlevel_battery
-  low_color: "#f90000"
-  med_color: "#f99500"
-  high_color: "#0cf900"
-  max: 100
-  min: 40
-  units: "%"
-
-plant_sensor:
-  widget_type: gauge
-  title: Plant vochtigheid
-  entity: sensor.plant_sensor_6_0
-  low_color: "#f90000"
-  med_color: "#f99500"
-  high_color: "#0cf900"
-  max: 500
-  min: 150
-  units: ""
+garagedeur_sensor:
+  widget_type: binary_sensor
+  title: Garage open
+  entity: binary_sensor.garagedeur
 
 br_map:
   widget_type: iframe
@@ -121,20 +94,6 @@ ververs:
   widget_type: reload
   title: Ververs
 
-utrecht_news:
-  widget_type: rss
-  interval: 15
-  recent: 10
-  title: RTV Utrecht
-  entity: rss_utrecht_news
-
-nu_news:
-  widget_type: rss
-  interval: 15
-  recent: 10
-  title: NU nieuws
-  entity: rss_news
-
 mfb_media:
   widget_type: media_player
   title: MFB
@@ -144,6 +103,6 @@ mfb_media:
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_gezellig, licht_huiskamer_fel
   - auto_keuken_led, guest_switch, clock(2x1)
-  - televisie, garage_deur, licht_sensor, ververs
+  - garagedeur_sensor, garage_deur, licht_sensor, ververs
   - br_temp, br_precipitation, br_humidity, toon
   - br_map(2x2), mfb_media(2x2)
