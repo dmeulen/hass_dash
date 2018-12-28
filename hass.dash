@@ -17,6 +17,16 @@ licht_huiskamer:
   title: Licht Huiskamer
   entity: switch.huiskamer_light_switch
 
+garage_deur:
+  widget_type: switch
+  title: Garage
+  entity: switch.garage_deur
+
+televisie:
+  widget_type: switch
+  title: TV
+  entity: switch.tv_kijken
+
 guest_switch:
   widget_type: switch
   title: Gast Modus
@@ -55,7 +65,7 @@ licht_huiskamer_helderheid:
 licht_sensor:
   widget_type: gauge
   title: Licht Sensor
-  entity: sensor.light_sensor_1_0
+  entity: sensor.huiskamer_licht
   low_color: "#000000"
   med_color: "#f97c00"
   high_color: "#f9e500"
@@ -134,6 +144,6 @@ mfb_media:
 layout:
   - licht_huiskamer, licht_huiskamer_normaal, licht_huiskamer_gezellig, licht_huiskamer_fel
   - auto_keuken_led, guest_switch, clock(2x1)
-  - licht_sensor, licht_sensor_battery, plant_sensor, ververs
+  - televisie, garage_deur, licht_sensor, ververs
   - br_temp, br_precipitation, br_humidity, toon
   - br_map(2x2), mfb_media(2x2)
